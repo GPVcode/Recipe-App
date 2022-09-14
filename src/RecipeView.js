@@ -12,7 +12,7 @@ function RecipeView({ recipe, deleteRecipe }) {
           {recipe.cuisine}
         </td>
         <td>
-          <img className="photo" src={recipe.photo}/>
+          <img className="photo"  height={100} src={recipe.photo}/>
         </td>
         <td className="content_td">
           <p>{(recipe.ingredients)}</p>
